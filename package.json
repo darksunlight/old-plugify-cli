@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "PlugifyChat",
@@ -12,17 +11,5 @@
   "dependencies": {
     "node-fetch": "^2.6.1",
     "ws": "^7.5.1"
-  },
-  "devDependencies": {
-    "node": "^16.10.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/darksunlight/plugify-cli.git"
-  },
-  "keywords": [],
-  "bugs": {
-    "url": "https://github.com/darksunlight/plugify-cli/issues"
-  },
-  "homepage": "https://github.com/darksunlight/plugify-cli#readme"
+  }
 }
