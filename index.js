@@ -111,7 +111,6 @@ ws.onmessage = async (event) => {
 
         case 2:
             loggedIn = true;
-            console.log(data.data);
             user = data.data;
             console.log("\n\n\n\n\nWS | Logged in.");
             rl.setPrompt(`${user.displayName ?? user.username}, #${channel.name}> `);
