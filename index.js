@@ -83,9 +83,9 @@ if (process.argv[2] == "auth") {
 
 let token = '';
 try {
-  token = fs.readFileSync("token", { encoding: "utf-8" });
+    token = fs.readFileSync("token", { encoding: "utf-8" });
 } catch (_) {
-  token = process.env.token;
+    token = process.env.token;
 }
 
 const ws = new Websocket("wss://api.plugify.cf/");
